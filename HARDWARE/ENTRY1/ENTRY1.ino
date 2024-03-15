@@ -17,8 +17,8 @@
 #define DATABASE_URL "parkeasetesting-f25e5-default-rtdb.firebaseio.com"
 
 /* User credentials for authentication */
-#define USER_EMAIL "parkeasetesting@gmail.com"
-#define USER_PASSWORD "Shivan11$"
+#define USER_EMAIL "your@gmail.com"
+#define USER_PASSWORD "YOUR_PASSWORD"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
