@@ -9,13 +9,13 @@ import pyrebase
 import json
 import qrcode
 from PIL import Image, ImageTk
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'YOUR_TESSERACT_PATH'
 
 config = {
-    "apiKey": "AIzaSyCEbevoIw6HvbRiOK5kJNbNoZ9Nou7ARow",
-    "authDomain": "parkeasetesting-f25e5.firebaseapp.com",
-    "databaseURL": "https://parkeasetesting-f25e5-default-rtdb.firebaseio.com",
-    "storageBucket": "parkeasetesting-f25e5.appspot.com"
+    "apiKey": "YOUR_API_KEY",
+    "authDomain": "YOUR_AUTH_DOMAIN",
+    "databaseURL": "YOUR_DATABASE_URL",
+    "storageBucket": "YOUR_STORAGE_BUCKET"
 }
 
 firebase = pyrebase.initialize_app(config)
@@ -305,7 +305,7 @@ class ExitInterface(tk.Toplevel):
             box_size=10,
             border=4,
         )
-        upi_payment_url = f"upi://pay?pa=9380300921@apl&pn=Your%20Name&am={amount_str}&cu=INR"
+        upi_payment_url = f"upi://pay?pa=YOUR_UPI_ID&pn=Your%20Name&am={amount_str}&cu=INR"
         qr.add_data(upi_payment_url)
         qr.make(fit=True)
         qr_image = qr.make_image(fill_color="black", back_color="white")
