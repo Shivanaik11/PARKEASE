@@ -1,11 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCEbevoIw6HvbRiOK5kJNbNoZ9Nou7ARow",
-    authDomain: "parkeasetesting-f25e5.firebaseapp.com",
-    projectId: "parkeasetesting-f25e5",
-    storageBucket: "parkeasetesting-f25e5.appspot.com",
-    messagingSenderId: "375046177762",
-    appId: "1:375046177762:web:95de52543187fce13bafbb",
-    measurementId: "G-YWB6FVTTTV"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -20,7 +20,7 @@ auth.onAuthStateChanged(function(user) {
             if (userData && userData.Name && userData.Registered_Vehicle_Number && userData.Wallet_Balance !== undefined) {
                 document.getElementById('welcome_message').innerHTML = '<p>Welcome, <strong>' + userData.Name + '</strong><br>Vehicle number : <strong>' + userData.Registered_Vehicle_Number + '</strong></p>';
                 document.getElementById('background-container').innerHTML = '<p>Wallet Balance: <strong>' + userData.Wallet_Balance + '</strong></p>';
-                var contactEmail = 'parkeasetesting@gmail.com';
+                var contactEmail = 'your@gmail.com';
                 var termsContent = '<p>Click to read Parkease\'s <a href="t&c.html">Terms & Conditions</a>, <a href="privacypolicy.html">Privacy Policy</a>, <a href="refundpolicy.html">Refund Policy</a> || <a href="mailto:' + contactEmail + '">Contact Us</a>.</p>';
                 var termsContainer = document.getElementById("terms-container");
                 termsContainer.innerHTML = termsContent;
@@ -44,6 +44,5 @@ logoutButton.addEventListener('click', function() {
 
 const addMoneyButton = document.getElementById('add-money-button');
 addMoneyButton.addEventListener('click', function() {
-    window.location.href = "https://rzp.io/l/PuoKXYYu"; 
+    window.location.href = "YOUR_PAYMENT_PAGE_URL"; 
 });
-
