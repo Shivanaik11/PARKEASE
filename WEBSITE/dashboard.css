@@ -1,0 +1,161 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background:-webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
+    display: flex;
+    justify-content: center; 
+
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#logo-container {
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 4px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #3A86FF, #8338EC, #FF006E, #FB5607, #FFBE0B) 20;
+    background: #000;
+}
+
+#logo {
+    width: 100px; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+#background-container {
+    width: 30%; 
+    max-width: 1200px; 
+    height: 80px; 
+    background-color: #000; 
+    position: absolute; 
+    top: calc(20px + 200px + 20px); 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border-bottom: 4px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #3A86FF, #8338EC, #FF006E, #FB5607, #FFBE0B) 20;
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#background-container p {
+    font-size: 25px; 
+    color: #ffffff; 
+}
+
+#background-container strong {
+    font-weight: bold; 
+    font-size: 50px;
+    color: #ff0000;
+}
+
+
+
+#welcome_message {
+    position: absolute;
+    padding: 20px;
+    left: 20px; 
+}
+
+#welcome_message p {
+    font-size: 18px;
+    color: #ffffff; 
+}
+
+#welcome_message strong {
+    font-weight: bold; 
+    font-size: 22px;
+    color: #ff0000;
+}
+
+#logo-container {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    width: 100px; 
+    height: auto; 
+}
+
+#logout-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px; 
+}
+
+#logout-button:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#terms-container {
+    background-color: #000000;
+    position: absolute;
+    bottom: 20px; 
+    width: 100%; 
+    height: 100px; 
+}
+
+#terms-container p {
+    color: #ffffff;
+    padding: 20px;
+    left: 20px;
+}
+
+#add-money-button {
+    width: 10%; 
+    max-width: 1200px; 
+    height: 50px; 
+    background-color: #000; 
+    border-radius: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute; 
+    top: calc(20px + 300px + 20px); 
+    left: 50%; 
+    transform: translateX(-50%); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold;
+}
+
