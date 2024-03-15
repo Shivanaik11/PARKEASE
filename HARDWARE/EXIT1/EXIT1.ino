@@ -9,16 +9,17 @@
 #define ECHO_PIN 18  // Connect to Echo pin on HC-SR04
 
 /* WiFi credentials */
-#define WIFI_SSID "iPhone"
-#define WIFI_PASSWORD "administrator"
+/* WiFi credentials */
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 /* Firebase credentials */
-#define API_KEY "AIzaSyCEbevoIw6HvbRiOK5kJNbNoZ9Nou7ARow"
-#define DATABASE_URL "parkeasetesting-f25e5-default-rtdb.firebaseio.com"
+#define API_KEY "YOUR_FIREBASE_API_KEY"
+#define DATABASE_URL "YOUR_FIREBASE_DATABASE_URL"
 
 /* User credentials for authentication */
-#define USER_EMAIL "parkeasetesting@gmail.com"
-#define USER_PASSWORD "Shivan11$"
+#define USER_EMAIL "your@gmail.com"
+#define USER_PASSWORD "YOUR_PASSWORD"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
