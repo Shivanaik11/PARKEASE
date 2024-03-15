@@ -1,11 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCEbevoIw6HvbRiOK5kJNbNoZ9Nou7ARow",
-    authDomain: "parkeasetesting-f25e5.firebaseapp.com",
-    projectId: "parkeasetesting-f25e5",
-    storageBucket: "parkeasetesting-f25e5.appspot.com",
-    messagingSenderId: "375046177762",
-    appId: "1:375046177762:web:95de52543187fce13bafbb",
-    measurementId: "G-YWB6FVTTTV"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 };
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
