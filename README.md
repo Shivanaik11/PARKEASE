@@ -43,7 +43,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
    - When a vehicle enters the parking lot, sensors detect its presence and trigger the camera.
    - The camera captures the vehicle number plate, which is processed using Optical Character Recognition (OCR) or Tesseract.
    - The extracted number along with the timestamp is sent to the database (Firebase), and a parking slot is assigned.
-   - For registered users, the system checks their wallet balance. A minimum balance of 5 rupees is required for parking.
+   - For registered users, the system checks their wallet balance. A minimum balance is required for parking.
 
 3. **Parking Duration:**
    - The system records the entry time and calculates the duration of parking based on the entry and exit times.
@@ -54,7 +54,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
    - Guest users receive a dynamic QR code containing the bill amount, which they pay upon exit.
 
 5. **Billing:**
-   - The billing system calculates the parking fee based on the time parked, with a standard rate of 20 rupees per hour.
+   - The billing system calculates the parking fee based on the time parked, with a standard rate per hour.
 
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/Shivanaik11/PARKEASE/blob/main/LICENSE.md) for more information.
