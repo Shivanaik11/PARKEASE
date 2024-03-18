@@ -13,7 +13,7 @@
     <a href="https://github.com/Shivanaik11/PARKEASE"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Shivanaik11/PARKEASE">View Demo</a>
+    <a href="https://parkease.vercel.app">View Demo</a>
     .
     <a href="https://github.com/Shivanaik11/PARKEASE/issues">Report Bug</a>
     .
@@ -24,37 +24,18 @@
 ![Contributors](https://img.shields.io/github/contributors/Shivanaik11/PARKEASE?color=dark-green) ![Forks](https://img.shields.io/github/forks/Shivanaik11/PARKEASE?style=social) ![Stargazers](https://img.shields.io/github/stars/Shivanaik11/PARKEASE?style=social) 
 
 ## Table Of Contents
-
 * [About the Project](#about-the-project)
 * [Usage](#usage)
 * [License](#license)
-* [Authors](#authors)
-
 
 ## About The Project
-
-
-
 Introducing PARKEASE, the revolutionary concept designed to streamline parking with zero human intervention. Say goodbye to the hassle of searching for parking spots and dealing with attendants. PARKEASE leverages cutting-edge technology to automate the entire parking process, ensuring a seamless experience for users.
-
-
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-
-
 ## License
-
 Distributed under the MIT License. See [LICENSE](https://github.com/Shivanaik11/PARKEASE/blob/main/LICENSE.md) for more information.
 
-## Authors
 
-* **SHIVAN V NAIK** - *Student.* - [SHIVAN V NAIK](https://github.com/Shivanaik11) - *PARKEASE Developer*
 
 
