@@ -25,7 +25,7 @@
 
 ## Table Of Contents
 * [About the Project](#about-the-project)
-* [Usage](#usage)
+* [Methodology](#Methodology)
 * [License](#license)
 
 ## About The Project
@@ -33,7 +33,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 
 ## Methodology
 
-PARKEASE is an automated parking system designed to provide hassle-free parking solutions for users. Below is a detailed overview of how PARKEASE operates:
+
 
 1. **User Registration:**
    - Registered users visit [parkease.vercel.app](https://parkease.vercel.app) to register by providing their vehicle number, name, and basic details.
