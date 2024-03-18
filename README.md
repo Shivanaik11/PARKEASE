@@ -34,7 +34,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 ## Usage
 User Registration:
 
-Registered users visit parkease.vercel.app and register by providing their vehicle number, name, and basic details.
+Registered users visit  <a href="https://parkease.vercel.app">parkease.vercel.app</a> and register by providing their vehicle number, name, and basic details.
 Upon registration, a digital wallet is created for the user, linked to their account.
 Parking Entry:
 
