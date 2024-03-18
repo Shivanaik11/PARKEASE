@@ -31,35 +31,30 @@
 ## About The Project
 Introducing PARKEASE, the revolutionary concept designed to streamline parking with zero human intervention. Say goodbye to the hassle of searching for parking spots and dealing with attendants. PARKEASE leverages cutting-edge technology to automate the entire parking process, ensuring a seamless experience for users.
 
-## Usage
-User Registration:
+## Methodology
 
-Registered users visit  <a href="https://parkease.vercel.app">parkease.vercel.app</a> and register by providing their vehicle number, name, and basic details.
-Upon registration, a digital wallet is created for the user, linked to their account.
-Parking Entry:
+PARKEASE is an automated parking system designed to provide hassle-free parking solutions for users. Below is a detailed overview of how PARKEASE operates:
 
-When a vehicle enters the parking lot, sensors detect its presence and trigger the camera.
-The camera captures the vehicle number plate.
-Optical Character Recognition (OCR) or Tesseract is used to extract the vehicle number.
-The extracted number along with the timestamp is sent to the database (Firebase), and a parking slot is assigned.
-If the user is registered, the system checks their wallet balance. A minimum balance of 5 rupees is required for parking.
-Parking Duration:
+1. **User Registration:**
+   - Registered users visit [parkease.vercel.app](https://parkease.vercel.app) to register by providing their vehicle number, name, and basic details.
+   - Upon registration, a digital wallet is created for the user, allowing them to add money using preferred payment methods.
 
-The vehicle remains parked, and the entry time is recorded.
-Time parked is calculated based on the entry and exit times.
-Exit Process:
+2. **Parking Entry:**
+   - When a vehicle enters the parking lot, sensors detect its presence and trigger the camera.
+   - The camera captures the vehicle number plate, which is processed using Optical Character Recognition (OCR) or Tesseract.
+   - The extracted number along with the timestamp is sent to the database (Firebase), and a parking slot is assigned.
+   - For registered users, the system checks their wallet balance. A minimum balance of 5 rupees is required for parking.
 
-When the vehicle exits, the exit time is recorded.
-For registered users, the system automatically deducts the parking fee from their wallet if they have a sufficient balance.
-For guest users, a dynamic QR code is generated containing the bill amount.
-The user can scan the QR code and make the payment through a preferred payment method.
-After successful payment, the user is allowed to exit, and the slot becomes available for the next vehicle.
-Billing:
+3. **Parking Duration:**
+   - The system records the entry time and calculates the duration of parking based on the entry and exit times.
 
-The billing system calculates the parking fee based on the time parked.
-The standard rate is 20 rupees per hour.
-For registered users, the fee is deducted directly from their wallet.
-For guest users, the QR code contains the bill amount which they pay upon exit.
+4. **Exit Process:**
+   - When the vehicle exits, the exit time is recorded.
+   - For registered users, the system automatically deducts the parking fee from their wallet if they have a sufficient balance.
+   - Guest users receive a dynamic QR code containing the bill amount, which they pay upon exit.
+
+5. **Billing:**
+   - The billing system calculates the parking fee based on the time parked, with a standard rate of 20 rupees per hour.
 
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/Shivanaik11/PARKEASE/blob/main/LICENSE.md) for more information.
