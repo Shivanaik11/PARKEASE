@@ -10,7 +10,7 @@
     "Park with ease, pay with breeze - your hassle-free parking solution is here with PARKEASE!"
     <br/>
     <br/>
-    <a href="https://github.com/Shivanaik11/PARKEASE"><strong>Explore the docs »</strong></a>
+    <a href="PARKEASE DOCUMENTATION/PARKEASE DOCUMENTATION.pdf"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://parkease.vercel.app">View Demo</a>
