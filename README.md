@@ -63,7 +63,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 
 ### <sub>2. Navigate to the Specific Folders and Follow the Instructions Below:</sub>
 
-**In the PYTHON Folder:**
+**In the <a href="PYTHON"><strong>PYTHON</strong></a> Folder:**
 1. **Install Required Libraries:** Make sure all necessary libraries are installed.
 2. **Configure Tesseract OCR:**
    - Update the location to Tesser OCR installed on your computer.
