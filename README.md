@@ -56,6 +56,35 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 5. **Billing:**
    - The billing system calculates the parking fee based on the time parked, with a standard rate per hour.
 
+## Guide for Running the Code 🚀
+
+### Ready to get PARKEASE up and running? Follow these steps to set everything up smoothly:
+
+### 1. Clone or Fork the Repository 🍴⬇️
+
+**In the PYTHON Folder:**
+1. **Install Required Libraries:** Make sure all necessary libraries are installed.
+2. **Configure Tesseract OCR:**
+   - Update the location to Tesser OCR installed on your computer.
+   - Download it from [Tesseract OCR Downloads](https://tesseract-ocr.github.io/tessdoc/Downloads.html).
+3. **Firebase Setup:**
+   - Replace with your Firebase credentials. Create a Firebase account, set up a project, and obtain your keys.
+4. **UPI ID:**
+   - On line 308, add your UPI ID.
+
+**In the Website Folder:**
+1. **Firebase Configuration:**
+   - In `index.js` and `dashboard.js`, update your Firebase credentials.
+2. **Payment Gateway URL:**
+   - In `dashboard.js` on line 47, replace with your payment gateway URL. Use your preferred gateway; Razorpay is used here as an example.
+
+**In the Hardware Folder:**
+1. **Install Required Libraries:** Ensure all necessary libraries are downloaded.
+2. **Configure WiFi and Firebase:**
+   - In `ENTRY1` and `EXIT1`, replace with your WiFi SSID, password, Firebase credentials, and an email with your preferred password.
+
+### ⚙️ You're all set! Enjoy seamless parking with PARKEASE! 🚗✨
+
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/Shivanaik11/PARKEASE/blob/main/LICENSE.md) for more information.
 
