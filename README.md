@@ -62,6 +62,8 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 
 ### 1. Clone or Fork the Repository 🍴⬇️
 
+### 2. Navigate to the Specific Folders and Follow the Instructions Below:
+
 **In the PYTHON Folder:**
 1. **Install Required Libraries:** Make sure all necessary libraries are installed.
 2. **Configure Tesseract OCR:**
