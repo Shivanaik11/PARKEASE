@@ -59,9 +59,9 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 
 ### Ready to get PARKEASE up and running? Follow these steps to set everything up smoothly:
 
-### 1. Clone or Fork the Repository 🍴⬇️
+### 1. <sub>Clone or Fork the Repository 🍴⬇️</sub>
 
-### 2. Navigate to the Specific Folders and Follow the Instructions Below:
+### 2. <sub>Navigate to the Specific Folders and Follow the Instructions Below:</sub>
 
 **In the PYTHON Folder:**
 1. **Install Required Libraries:** Make sure all necessary libraries are installed.
