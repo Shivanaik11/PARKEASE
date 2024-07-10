@@ -73,13 +73,13 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 4. **UPI ID:**
    - On line 308, add your UPI ID.
 
-**In the Website Folder:**
+**In the <a href="WEBSITE"><strong>WEBSITE</strong></a> Folder:**
 1. **Firebase Configuration:**
    - In `index.js` and `dashboard.js`, update your Firebase credentials.
 2. **Payment Gateway URL:**
    - In `dashboard.js` on line 47, replace with your payment gateway URL. Use your preferred gateway; Razorpay is used here as an example.
 
-**In the Hardware Folder:**
+**In the <a href="HARDWARE"><strong>HARDWARE</strong></a> Folder:**
 1. **Install Required Libraries:** Ensure all necessary libraries are downloaded.
 2. **Configure WiFi and Firebase:**
    - In `ENTRY1` and `EXIT1`, replace with your WiFi SSID, password, Firebase credentials, and an email with your preferred password.
