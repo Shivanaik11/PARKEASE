@@ -24,7 +24,7 @@
 ## Table Of Contents
 * [About the Project](#about-the-project)
 * [Methodology](#Methodology)
-* [Getting Started](#guide-for-Running-the-Code)
+* [Guide for Running the Code](#guide-for-running-the-code)
 * [License](#license)
 
 ## About The Project
