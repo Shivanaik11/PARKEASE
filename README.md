@@ -38,7 +38,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
    - Users visit [parkease.vercel.app](https://parkease.vercel.app) to register by providing their vehicle number, name, and basic details.
    - Upon registration, a digital wallet is created for the user, allowing them to add money using preferred payment methods.
 
-2. **Parking Entry:**
+2. **Entry Process:**
    - When a vehicle enters the parking lot, sensors detect its presence and trigger the camera.
    - The camera captures the vehicle number plate, which is processed using Optical Character Recognition (OCR) or Tesseract.
    - The extracted number along with the timestamp is sent to the database (Firebase), and a parking slot is assigned.
