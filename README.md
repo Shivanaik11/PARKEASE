@@ -11,7 +11,7 @@
     <a href="PARKEASE DOCUMENTATION/PARKEASE DOCUMENTATION.pdf"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://parkease.vercel.app">PARKEASE</a>
+    <a href="https://parkease.vercel.app">Website</a>
     .
     <a href="https://drive.google.com/file/d/1k35T2plLICuuwJIJoQ_r9BUdfotTNSuZ/view?usp=drive_link">View Demo</a>
     .
