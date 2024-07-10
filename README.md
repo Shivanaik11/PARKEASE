@@ -4,8 +4,6 @@
     <img src="images/company_logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">PARKEASE</h3>
-
   <p align="center">
     "Park with ease, pay with breeze - your hassle-free parking solution is here with PARKEASE!"
     <br/>
@@ -26,6 +24,7 @@
 ## Table Of Contents
 * [About the Project](#about-the-project)
 * [Methodology](#Methodology)
+* [Getting Started](## Guide for Running the Code 🚀)
 * [License](#license)
 
 ## About The Project
