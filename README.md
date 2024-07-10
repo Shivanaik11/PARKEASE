@@ -83,7 +83,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 2. **Configure WiFi and Firebase:**
    - In `ENTRY1` and `EXIT1`, replace with your WiFi SSID, password, Firebase credentials, and an email with your preferred password.
 
-### ⚙️ You're all set! Enjoy seamless parking with PARKEASE! 🚗✨
+### ⚙️ You're all set! Enjoy seamless parking with PARKEASE! 🙌
 
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/Shivanaik11/PARKEASE/blob/main/LICENSE.md) for more information.
