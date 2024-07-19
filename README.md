@@ -83,9 +83,14 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
    - In `dashboard.js` on line 47, replace with your payment gateway URL. Use your preferred gateway; Razorpay is used here as an example.
 
 **In the <a href="HARDWARE"><strong>HARDWARE</strong></a> Folder:**
-1. **Install Required Libraries:** Ensure all necessary libraries are downloaded.
+1. **Install Required Libraries:** Ensure all necessary libraries and ESP32 board package are downloaded.
 2. **Configure WiFi and Firebase:**
    - In `ENTRY1` and `EXIT1`, replace with your WiFi SSID, password, Firebase credentials, and an email with your preferred password.
+3. **Upload Code to ESP32:**
+   - Open the Arduino IDE.
+   - Select the appropriate ESP32 board and COM port from the Tools menu.
+   - Upload the `ENTRY1` code to one ESP32 microcontroller and the `EXIT1` code to the other.
+   - Refer to the circuit diagram provided in the `CIRCUIT DIAGRAM` folder and rigup the circuit.
 
 ### ⚙️ You're all set! Enjoy seamless parking with PARKEASE! 🙌
 
