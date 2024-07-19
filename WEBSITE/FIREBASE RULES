@@ -1,1 +1,19 @@
-
+{
+  "rules": {
+    "$users": {
+      ".indexOn": ["Registered_Vehicle_Number"],
+      "$uid": {
+        ".read": "$uid == auth.uid",
+        ".write": "$uid == auth.uid",
+        "Name": {
+          ".read": "$uid == auth.uid",
+        },
+        "Wallet_Balance": {
+          ".read": "$uid == auth.uid",
+        }
+      }
+    },
+    ".read": true,
+    ".write": true
+  }
+}
