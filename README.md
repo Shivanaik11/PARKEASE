@@ -77,7 +77,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 1. **Firebase Configuration:**
    - In `index.js` and `dashboard.js`, update your Firebase credentials.
 2. **Update Firebase Rules:**
-   - In the Firebase console, navigate to the `Database` section and click on `Rules`.
+   - In the Firebase console, navigate to the `Realtime Database` section and click on `Rules`.
    - Replace the existing rules with the content from the `FIREBASE RULES` file.
 3. **Payment Gateway URL:**
    - In `dashboard.js` on line 47, replace with your payment gateway URL. Use your preferred gateway; Razorpay is used here as an example.
