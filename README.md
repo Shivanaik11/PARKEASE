@@ -95,7 +95,7 @@ Introducing PARKEASE, the revolutionary concept designed to streamline parking w
 ### ⚙️ You're all set! Enjoy seamless parking with PARKEASE! 🙌
 
 ## License
-Distributed under the MIT License. See [LICENSE](https://github.com/Shivanaik11/PARKEASE/blob/main/LICENSE.md) for more information.
+Distributed under the Mozilla Public License Version 2.0 See [LICENSE](https://github.com/Shivanaik11/PARKEASE/blob/main/LICENSE.md) for more information.
 
 
 
